@@ -1,0 +1,109 @@
+.nav-link, .nav-link:hover,
+.navbar-brand, .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap:5%;
+}
+
+.nav-item {
+    margin-left: 0;
+}
+
+.btn , .btn:hover{
+    color: white;
+    background-color: rgb(57, 57, 199);
+}
+
+.nav-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    font-weight: bolder;
+    color: white;
+}
+
+.cabecera{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    width: auto;
+    height: 7% ;
+}
+.image1{
+    width: 50%;
+    height: auto;
+    text-align: end;
+}
+.image2{
+    width: 25%;
+    height: auto;
+}
+.image3{
+    width: 25%;
+    height: auto;
+}
+
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 3%;
+    margin:0%;
+    margin-top: 5%
+}
+.articles{
+    width: 68%;
+    height: auto;
+    display: block;
+}
+
+.article{
+    display:flex; 
+    border: 1px black solid;
+}
+
+.imageArticle{
+    width:35%;
+    margin:5%;
+    object-fit: cover;
+  
+}
+
+.description{
+    width: 85%;
+    display:flex;
+    flex-direction: column;
+}
+
+.linksArticulos{
+    background-color: rgb(233, 228, 228);
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left:2%;
+}
+
+.RRSS{
+    margin-left: 4px;
+    margin-top: 2%;
+}
+.imageLogo{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.addText{
+    margin-top: 3%;
+    margin-left: 3%;
+    text-align: justify;
+    font-weight: bolder;
+}
